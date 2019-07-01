@@ -3,7 +3,7 @@
 基于[External C2](https://www.cobaltstrike.com/downloads/externalc2spec.pdf) 实现，提供给Cobalt strike使用。效果为无需开启端口的正向连接。  
 
 ### 基本结构
-![External C2](https://raw.githubusercontent.com/Lz1y/imggo/master/20190701182150.png)
+![External C2](https://raw.githubusercontent.com/Lz1y/imggo/master/20190701182150.png)  
 以上为External C2的基本结构，由三个角色组建而成，其名称和作用分别为：  
   
 - Team Server：Cobalt strike的原生服务，接受、处理控制器传达的信息，并且做出相应的回应或者下发指令。    
